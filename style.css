@@ -1,0 +1,1049 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+.parent1{
+    max-width: 1000px;
+    margin: auto;
+} 
+.parent2{
+    max-width: 930px;
+    margin: auto;
+}
+
+.parent3{
+    max-width: 870px;
+    margin: auto;
+}
+
+.Navbar{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    padding: 20px 10px 0px 0px;
+}
+.Humberger{
+    display: none;
+}
+.Parentjohnimg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.john_introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 140px;
+}
+.john_Heading{
+    width: 448px;
+    height: 17px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    padding-bottom: 60px;
+}
+.john_txt{
+    width: 595px;
+    height: 64px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 18.62px;
+    line-height: 23.5px;
+    color: #373950;
+    letter-spacing: .2px;
+    padding-top: 20px;
+}
+.Resuma{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32.28px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+#john-picture{
+    height: 260px;
+    width: 260px;
+   padding-bottom: 100px;
+   padding-top: 110px;
+   
+}
+
+
+
+/* component 2 start for css */
+.Component2bg{
+    background-color: #EDF7FA;
+     /* width: 100%;  */
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+.Component2{
+   margin: auto;
+}
+.RecentPostAndReview{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 740px;
+}
+.RecentPost{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height:60px;
+    color: #21243D;
+}
+.View{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:60px;
+    color: #00A8CC;
+}
+.Scratch_Figma{
+    display: flex;
+    gap: 20px;
+}
+.bgScratch{
+    width: 470px;
+    height: 290px;
+    background-color: #FFFFFF;
+}
+
+.Scratch-Heading{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 38.19px;
+    color: #21243D;
+    padding: 10px 20px 10px 15px;
+}
+.Scratch-Detail
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px 0px 10px 15px;
+}
+.Scratch-date{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30.19px;
+    color: #39393a;
+}
+.Scratch-hr-line{
+    display: flex;
+    align-items: center;
+    width: 1px;
+    height: 100%;
+    background-color: #000000;
+}
+.Scratch-Design{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30.19px;
+    color: #39393a;
+   
+}
+.Sratch-Txt{
+    max-width: 450px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29.19px;
+    color:#21243D;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+/* component 3 start for css */
+.Featured_work{
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color:#21243D;
+}
+
+.ParentDesigning_Dashbord{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    gap: 20px;
+}
+.Designing_DashbordDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Designing_DashbordHeading{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44.06px;
+    color:#21243D;
+    margin-top: -9px;
+  
+}
+.DashboardAndBtn{
+    display: flex;
+    justify-content: left;
+    gap: 33px;
+}
+.btn2020{
+    width: 62px;
+    height: 25px;
+    background-color: #142850;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+   color: #FFFFFF;
+}
+.Dashbord{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.DashboardTxt{
+    width: 594px;
+    height: 93px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.3px;
+    color: #21243D;
+}
+.horizintal-Line2{
+    width: 100%;
+    height: 1px; 
+    background-color: #E0E0E0;
+    margin-top: 15px;
+}
+.Footer{
+    height: 300px;
+}
+.APPS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
+.FooterTxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.56px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Responsive 1080px Component 1 */
+ @media(max-width:1150px){  
+.parent1{
+    max-width: 840px;
+    margin: auto;
+} 
+.parent2{
+    max-width: 790px;
+    margin: auto;
+}
+
+.parent3{
+    max-width: 760px;
+    margin: auto;
+}
+.Navbar{
+    font-weight: 500;
+    font-size: 24px;
+    gap: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.Humberger{
+    display: none;
+}
+
+.john_introduction{
+    gap: 40px;
+}
+.john_Heading{
+    width: 510px;
+    height: 14px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    color: #21243D;
+    padding-bottom: 60px;
+}
+.john_txt{
+    width: 435px;
+    height: 77px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 17.12px;
+    line-height: 28.5px;
+    color: #373950;
+    letter-spacing: .2px;
+}
+.Resuma{
+    width: 235px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32.28px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+#john-picture{
+    height: 220px;
+    width: 220px;
+   padding-bottom: 100px;
+   padding-top: 110px;
+}
+.Component2{
+   margin: auto;
+}
+.RecentPostAndReview{
+    gap: 500px; 
+    margin-left: -100px;
+}
+.RecentPost{
+    font-size: 20px;
+}
+.View{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:60px;
+    color: #00A8CC;
+}
+.Scratch_Figma{
+    display: flex;
+    gap: 40px;
+  
+}
+.bgScratch{
+    width: 330px;
+    height: 250px;
+    background-color: #FFFFFF;
+}
+.Scratch-Heading{
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 38.19px;
+    color: #21243D;
+    padding: 10px 0px 10px 15px;
+}
+.Scratch-Detail
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px 0px 10px 15px;
+}
+.Scratch-date{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30.19px;
+    color: #39393a;
+}
+.Scratch-hr-line{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+.Scratch-Design{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30.19px;
+    color: #39393a;
+   
+}
+.Sratch-Txt{
+  
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29.19px;
+    color:#21243D;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+/* component 3 */
+.Featured_work{
+    font-size: 18px;
+    font-weight: 300;
+}
+.Designing_DashbordHeading{
+    font-weight: 600;
+    font-size: 25px;
+}
+.Dashbord{
+    font-weight: 400;
+    font-size: 17px;
+}
+.DashboardTxt{
+    width: 454px;
+    height: 93px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+} 
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media(max-width:850px){  
+    .parent1{
+        max-width: 810px;
+        margin: auto;
+    } 
+    .parent2{
+        max-width: 690px;
+        margin: auto;
+    }
+    
+    .parent3{
+        max-width: 660px;
+        margin: auto;
+    }
+    .Navbar{
+        font-weight: 400;
+        font-size: 18px;
+        gap: 15px;
+        padding-right: 55px;
+        /* padding: 20px 10px 0px 30pxpx; */
+    }
+    .Humberger{
+        display: none;
+    }
+    .Parentjohnimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .john_introduction{
+        gap: 40px;
+        padding-top: 110px;
+    }
+    .john_Heading{
+        width: 450px;
+        height: 15px;
+        font-weight: 700;
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+    .john_txt{
+        width: 400px;
+        height: 87px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 500;
+        font-size: 17.12px;
+        line-height: 28.5px;
+        color: #373950;
+        letter-spacing: .2px;
+    }
+    .Resuma{
+        width: 205px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32.28px;
+        color: #FFFFFF;
+        background-color: #FF6464;
+        cursor: pointer;
+        margin-bottom: 60px;
+    }
+    
+    #john-picture{
+        height: 180px;
+        width: 180px;
+       padding-bottom: 100px;
+       padding-top: 80px;
+       padding-right: 55px;
+    }
+    .Component2{
+       margin: auto;
+    }
+    .RecentPostAndReview{
+        gap: 390px; 
+        margin-left: -130px;
+    }
+    .RecentPost{
+        font-size: 20px;
+    }
+    .View{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .Scratch_Figma{
+        display: flex;
+        gap: 25px;
+    }
+    .bgScratch{
+        width: 280px;
+        height: 230px;
+    }
+    .Scratch-Heading{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20.19px;
+        color: #21243D;
+        padding: 10px 10px 10px 15px;
+    }
+    .Scratch-Detail
+    {
+        gap: 15px;
+        padding: 10px 10px 8px 15px;
+    }
+    .Scratch-date{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20.19px;
+      
+    }
+   
+    .Scratch-Design{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20.19px;
+    }
+    .Sratch-Txt{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.19px;
+        /* padding-top: 7px; */
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+    /* component 3 */
+    .Featured_work{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .Designing_DashbordImg{
+        width: 160px;
+        height: 160px;
+    }
+    .Designing_DashbordHeading{
+        font-weight: 600;
+        font-size: 25px;
+        padding-left: 90px;
+    }
+    .DashboardAndBtn{
+        padding-left: 90px;
+    }
+    .btn2020{
+        width: 52px;
+        height: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .Dashbord{
+        font-weight: 400;
+        font-size: 17px;
+       align-items: center;
+    }
+    .DashboardTxt{
+        width: 334px;
+       height: 93px;
+        padding-left: 90px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************************************************************* */
+ /* Responsive 720px Component 1 */ 
+  @media(max-width:720px){
+    .parent1{
+        max-width: 810px;
+        margin: auto;
+    } 
+    .parent2{
+        max-width: 690px;
+        margin: auto;
+    }
+    
+    .parent3{
+        max-width: 660px;
+        margin: auto;
+    }
+    .Navbar{
+        font-weight: 400;
+        font-size: 18px;
+        gap: 15px;
+        /* padding-right: 55px; */
+        padding: 20px 50px 0px 30pxpx;
+    }
+    .Humberger{
+        display: none;
+    }
+    .Parentjohnimg{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #john-picture{
+        height: 200px;
+        width: 200px;
+        margin-bottom: -130px;
+    }
+    .john_Heading{
+        width: 330px;
+        height: 26px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 45px;
+        color: #21243D;
+        padding-bottom: 130px;
+    }
+    .john_introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin-top: -80px;
+        text-align: center;
+    }
+    .john_txt{
+        width: 395px;
+        height: 86px;
+        line-height: 29px;
+        margin-top: -100px;
+        margin-bottom: 10px;
+    }
+    .Resuma{
+        width: 160px;
+        height: 33px;
+        font-weight: 400;
+        font-size: 15px;
+        
+        
+    }
+
+    .Component2{
+        margin: auto;
+     }
+    
+     .RecentPost{
+         font-size: 22px;
+        padding-right: 30px;
+     }
+     .View{
+        display: none;
+     }
+     .Scratch_Figma{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         gap: 25px;
+     }
+     .bgScratch{
+         width: 280px;
+         height: 210px;
+     }
+     .Scratch-Heading{
+         font-weight: 700;
+         font-size: 15px;
+         padding: 10px 0px 10px 10px;
+     }
+     .Scratch-Detail
+     {
+         gap: 15px;
+         padding: 10px 10px 8px 35px;
+     }
+     .Scratch-date{
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 20.19px;
+       
+     }
+    
+     .Scratch-Design{
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 20.19px;
+     }
+     .Sratch-Txt{
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 20.19px;
+         padding-top: 7px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     .Featured_work{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-self:center;
+        padding-right: 100px;
+    }
+    .ParentDesigning_Dashbord{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 80px;
+    }
+    #Designing_DashbordImg{
+        width: 280px;
+        height: 200px;
+        margin-top: -10px;
+       
+    }
+    .Designing_DashbordHeading{
+        max-width: 300px;
+        font-weight: 600;
+        font-size: 17px;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+   .DashboardAndBtn{
+    padding-left: 120px;
+   }
+    .btn2020{
+        max-width: 52px;
+        height: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        padding-top: 6px;
+      
+    }
+    .Dashbord{
+        font-weight: 400;
+        font-size: 17px;
+       align-items: center;
+    }
+    .DashboardTxt{
+        width: 260px;
+       height: 150px;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 100px;
+    }
+    .horizintal-Line2{
+        width: 45%;
+        margin-left:31%;
+     margin-top: -40px;
+     margin-bottom: 20px;
+    }
+    .Footer{
+        height: 250px;
+    }
+    .APPS{
+        gap: 28px;
+        padding-top: 140px;
+        padding-bottom: 20px;
+    }
+    .FooterTxt{
+       
+        font-weight: 400;
+        font-size: 14px;
+    }
+} 
+@media(max-width:640px){
+    .horizintal-Line2{
+        width: 45%;
+        margin-left:29%;
+     margin-top: -40px;
+     margin-bottom: 20px;
+    }
+}
+@media(max-width:540px){
+    .horizintal-Line2{
+        width: 60%;
+        margin-left:25%;
+     margin-top: -40px;
+     margin-bottom: 20px;
+    }
+}
+@media(max-width:460px){
+    .horizintal-Line2{
+        width: 60%;
+        margin-left:20%;
+     margin-top: -40px;
+     margin-bottom: 20px;
+    }
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55%%%%%%%% */
+@media(max-width:390px){
+    .parent1{
+        max-width: 410px;
+        margin: auto;
+    } 
+    .parent2{
+        max-width: 390px;
+        margin: auto;
+    }
+    
+    .parent3{
+        max-width: 360px;
+        margin: auto;
+    }
+    .Navbar{
+        display: none;
+    }
+    .Humberger{
+       
+        display: flex;
+        justify-content: end;
+        align-items: right;
+        padding-right: 15px;
+        padding-top: 15px;
+        margin-bottom: -50px;
+        
+    }
+    .Parentjohnimg{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #john-picture{
+        height: 165px;
+        width: 165px;
+        margin-bottom: -120px;
+        padding-left: 20px;
+    }
+    .john_Heading{
+        width: 280px;
+        height: 46px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 100px;
+    }
+    .john_introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin-top: -80px;
+        text-align: center;
+    }
+    .john_txt{
+        width: 265px;
+        height: 126px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: -80px;
+    }
+    .Resuma{
+        width: 165px;
+        height: 35px;
+        font-weight: 500;
+        font-size: 15px;
+       margin-top: -70px; 
+       margin-bottom: 40px; 
+    }
+
+    .Component2{
+        margin: auto;
+       
+     }
+     .RecentPost{
+        font-weight: 400;
+         font-size: 15px;
+       
+        padding-left: 130px;
+        margin-top: -20px;
+     }
+     .View{
+        display: none;
+     }
+     .Scratch_Figma{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         gap: 25px;
+         box-sizing: border-box;
+
+     }
+     .bgScratch{
+         width: 270px;
+         height: 200px;
+         margin-left: -33px
+;
+        
+     }
+     .Scratch-Heading{
+         font-weight: 800;
+         font-size: 17px;
+         padding: 10px 0px 10px 10px;
+     }
+     .Scratch-Detail
+     {
+         gap: 15px;
+         padding: 5px 5px 4px 25px;
+     }
+     .Scratch-date{
+         font-weight: 400;
+         font-size: 13px;
+         line-height: 10.19px;
+       
+     }
+    
+     .Scratch-Design{
+         font-weight: 400;
+         font-size: 13px;
+         line-height: 10.19px;
+     }
+     .Sratch-Txt{
+         font-weight: 600;
+         font-size: 12px;
+         line-height: 20.19px;
+         padding-top: 7px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     .Featured_work{
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -40px;
+
+        display: flex;
+        justify-content: center;
+        align-self:center;
+       padding-left: 70px;
+    }
+    .ParentDesigning_Dashbord{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 80px;
+    }
+    #Designing_DashbordImg{
+        width: 260px;
+        height: 180px;
+        margin-top: -20px;
+        margin-left: -10px;
+       
+    }
+    .Designing_DashbordHeading{
+        max-width: 300px;
+        font-weight: 800;
+        font-size: 18px;
+        padding-top: 0px;
+        padding-left: 85px;
+    }
+   .DashboardAndBtn{
+    padding-left: 85px;
+   }
+    .btn2020{
+        max-width: 52px;
+        height: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        padding-top: 6px;
+      
+    }
+    .Dashbord{
+        font-weight: 400;
+        font-size: 17px;
+       align-items: center;
+    }
+    .DashboardTxt{
+        width: 265px;
+       height: 160px;
+        font-weight: 500;
+        font-size: 13px;
+        padding-left: 85px;
+    }
+    .horizintal-Line2{
+        width: 90%;
+        margin-left:4%;
+     margin-top: -50px;
+     margin-bottom: 20px;
+    }
+    .Footer{
+        height: 200px;
+       
+    }
+    .APPS{
+        gap: 25px;
+        padding-top: 140px;
+        padding-bottom: 10px;
+    }
+    #APP{
+        width: 20px;
+        height: 20px;
+    }
+    .FooterTxt{
+       
+        font-weight: 400;
+        font-size: 12px;
+        
+    }
+}
+
